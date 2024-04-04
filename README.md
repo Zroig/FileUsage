@@ -5,6 +5,7 @@
 
 [2 punts] Fer un programa que, donat un fitxer de text ens indiqui quantes línies té i quantes paraules té.
     Cal fer un bon disseny descendent del programa, creant els subprogrames que calgui.
+    
 [5 punts] Un radar de trànsit va guardant les diferents velocitats (km/h) que registra, separats per un espai, en un fitxer. (Exemple bàsic de fitxer aquí).
 - [2.5 punts] Fer un programa que demani a l'usuari la ruta del fitxer i que calculi la velocitat màxima, mitjana i mínima detectada. Pots descarregar un exemple de fitxer aquí.
 - [2.5 punts] Ampliar el programa anterior i fer que demani a l’usuari una ubicació i calculi la velocitat màxima, mitjana i mínima detectada de la ubicació
