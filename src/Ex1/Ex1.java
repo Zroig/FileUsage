@@ -17,7 +17,7 @@ public class Ex1 {
 
         entrada = sc.next();
 
-        Path origin = Path.of("C:\\Users\\Zroig\\Estudis\\CFGSDAW1\\MP03\\UF3\\PT1");
+        Path origin = Path.of("resultats");
         Path comp = Path.of(origin+"\\EX1\\secret.txt");
         exists = Files.exists(comp);
 
@@ -26,7 +26,7 @@ public class Ex1 {
             try {
                 Path carpeta = Files.createDirectories(origin.resolve("EX1"));
                 Path fitxer = Files.createFile(carpeta.resolve("secret.txt"));
-                BufferedWriter escriptor = new BufferedWriter(new FileWriter("C:\\Users\\Zroig\\Estudis\\CFGSDAW1\\MP03\\UF3\\PT1\\EX1\\secret.txt"));
+                BufferedWriter escriptor = new BufferedWriter(new FileWriter("resultats\\EX1\\secret.txt", true));
                 escriptor.write(entrada);
                 escriptor.close();
                 //Files.writeString(fitxer, entrada+"\n");
@@ -36,7 +36,7 @@ public class Ex1 {
             
         } else {
             try {
-                BufferedWriter escriptor = new BufferedWriter(new FileWriter("C:\\Users\\Zroig\\Estudis\\CFGSDAW1\\MP03\\UF3\\PT1\\EX1\\secret.txt"));
+                BufferedWriter escriptor = new BufferedWriter(new FileWriter("resultats\\EX1\\secret.txt", true));
                 escriptor.newLine();
                 escriptor.write(entrada);
                 escriptor.close();
@@ -46,7 +46,7 @@ public class Ex1 {
             }    
         }
 
-        System.out.println("Booooomba");
+        System.out.println("Missil preparat");
         sc.close();
 
         
