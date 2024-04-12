@@ -23,7 +23,7 @@ public class Ex2 {
             
             try {
                 Path carpeta = Files.createDirectories(origin.resolve("EX2"));
-                Path fitxer = Files.createFile(carpeta.resolve("unimes.txt"));
+                Files.createFile(carpeta.resolve("unimes.txt"));
                 BufferedWriter escriptor = new BufferedWriter(new FileWriter("resultats\\EX2\\unimes.txt", true));
                 escriptor.write(dtform.format(data)+"T"+java.time.LocalTime.now());
                 escriptor.close();
