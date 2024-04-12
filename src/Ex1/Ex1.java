@@ -24,7 +24,7 @@ public class Ex1 {
             
             try {
                 Path carpeta = Files.createDirectories(origin.resolve("EX1"));
-                Path fitxer = Files.createFile(carpeta.resolve("secret.txt"));
+                Files.createFile(carpeta.resolve("secret.txt"));
                 BufferedWriter escriptor = new BufferedWriter(new FileWriter("resultats\\EX1\\secret.txt", true));
                 escriptor.write(entrada);
                 escriptor.close();
