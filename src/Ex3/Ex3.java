@@ -26,7 +26,7 @@ public class Ex3 {
                     String[] paraules = linia.split(" ");
                     contp += paraules.length;
                 }
-
+                lector.close();
                 System.out.println("Numero de linies: "+contl+"\nNumero de paraules: "+contp);
             } catch (Exception e) {
                 e.printStackTrace();
