@@ -9,3 +9,9 @@
 [5 punts] Un radar de trànsit va guardant les diferents velocitats (km/h) que registra, separats per un espai, en un fitxer. (Exemple bàsic de fitxer aquí).
 - [2.5 punts] Fer un programa que demani a l'usuari la ruta del fitxer i que calculi la velocitat màxima, mitjana i mínima detectada. Pots descarregar un exemple de fitxer aquí.
 - [2.5 punts] Ampliar el programa anterior i fer que demani a l’usuari una ubicació i calculi la velocitat màxima, mitjana i mínima detectada de la ubicació
+
+# ÚS
+EX1 : Executar i introduir codis de llançament, comprovar a resultats/EX1/EX1.txt.
+EX2 : Executar, comprovar a resultats/EX2/EX2.txt.
+EX3 : Executar, modificar fitxer a resultats/EX3/EX3.txt.
+EX4 : Executar, modificar fitxer a resultats/EX4/EX4.txt.

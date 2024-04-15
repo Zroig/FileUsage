@@ -74,7 +74,7 @@ public class EX4 {
     public static boolean isInt(String valor){
         boolean isInt = true;
         try {
-            int num = Integer.parseInt(valor);
+            Integer.parseInt(valor);
         } catch (NumberFormatException er) {
             isInt = false;
         }
