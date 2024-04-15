@@ -1,0 +1,2 @@
+Malta 100 20 50 Paris 200 50 100 Roma 500 6 7
+Pillo 50 20 1
